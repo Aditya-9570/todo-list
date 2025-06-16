@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgba(19, 51, 41, 0.7)
+}
+
+p{
+    text-align: center;
+}
+
+
+.tag {
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+
+#maindiv {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top:30px;
+  padding: 10 40px;
+  
+  
+}
+
+form {
+  flex:1;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+  border: 21px Solid black
+  
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+
+form button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: darkgrey;
+}
+
+/* === Table Styling === */
+#divtable {
+
+  flex: 1;
+  overflow-x: auto;
+  
+}
+
+#studenttable {
+
+
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 20px;
+
+}
+
+#studenttable caption {
+
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+
+}
+
+#studenttable th{
+    
+  border: 8px solid rgb(3, 76, 68);
+  padding: 10px;
+  text-align:center;
+}
+
+#studenttable td {
+  border: 1px solid  rgb(87, 6, 6);
+  padding:10px;
+  text-align: center;
+}
+
+#studenttable th {
+
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+
+}
+
